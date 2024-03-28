@@ -785,11 +785,29 @@ body .argumentos-2{
 
 @media screen and (max-width: 500px) {
   body .options{
-    margin-left: 400px;
+    margin-left: 480px;
+  }
+  .seccion-options{
+    height: 90vh;
+  }
+  
+  .cont-definicion {
+    grid-template-columns: 1fr;
+  }
+  .cont-definicion .text{
+    padding: 50px 50px 0px 50px;
   }
 
-  body .argumentos-2{
-    
+  .p-bottom {
+      padding: 0px 40px;
+      margin-bottom: 0px;
+  }
+
+  .seccion-enciclica .contenido {
+    grid-template-columns: 1fr;
+  }
+  .typing {
+    padding: 0px 10px;
   }
 }
 
